@@ -15,7 +15,7 @@ jobs:
       - name: Extract source ZIP
         run: |
           mkdir -p extracted
-          unzip -o "qingtuo-modified-source(1).zip" -d extracted
+         unzip -o "qingtuo-modified-source (1).zip" -d extracted
           test -f extracted/scl-main/settings.gradle.kts
 
       - name: Set up Java
